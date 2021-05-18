@@ -2,6 +2,7 @@
 
 ## Model overview
 This model demonstrated an efficient and accurate machine-learning method to directly predict a material's experimentally measured temperature-dependent Vickers hardness.
+![reg](/regressionplot-01.png)
 
 ## Table of Contents
 
