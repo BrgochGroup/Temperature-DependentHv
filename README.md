@@ -30,7 +30,9 @@ This package requires:
 
 ## Usage
 
-Note:
+Note: The training dataset used in this work is provided in the form of pickle files, please see 'trainingset_x.p' and 'trainingset_y.p'.
+
+To get the prediction for any crystal structure of interest, simply get the CIF file and direct the script model_soap.py to find the CIF file.
 
 ## Temperature and load dependence
 This model is able to take two external factors into consideration: temperature (K) and applied load (N), making predictions of the same structure at different temperature/load.
