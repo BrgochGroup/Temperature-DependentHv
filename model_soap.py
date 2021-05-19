@@ -29,7 +29,7 @@ species = set()
 for i in range(len(trainingset_x)):
     species.update(trainingset_x[str(i)].get_chemical_symbols())
 
-soap = SOAP(species=species, periodic=True, rcut=2.5, nmax=6, lmax=6, average="inner", sparse=False)
+soap = SOAP(species=species, periodic=True, rcut=2.5, nmax=8, lmax=8, average="inner", sparse=False)
 print('Generating descriptors...')
 atoms=[]
 for i in range(len(trainingset_x)):
